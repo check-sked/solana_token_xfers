@@ -19,7 +19,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-RPC_ENDPOINT = "https://solana-mainnet.g.alchemy.com/v2/AMsnqGqzMboS_tNkYDeec0MleUfhykIR"
+RPC_ENDPOINT = "https://solana-mainnet.g.alchemy.com/v2/<API_KEY>"
 SPL_TOKEN_PROGRAM_ID = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 WRAPPED_SOL_MINT = "So11111111111111111111111111111111111111112"
 TOKEN_INSTRUCTION_TYPES = {"transfer", "transferChecked", "mintTo", "mintToChecked", "burn", "burnChecked"}
